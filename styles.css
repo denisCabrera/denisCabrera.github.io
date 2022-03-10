@@ -1,4 +1,49 @@
-body {
-  background-image: linear-gradient(to right bottom, #57d7ec, #00e1e2, #00e9ca, #2aeea5, #6ef077, #76f071, #7df16b, #85f165, #5ef18a, #34efaa, #00ebc5, #19e6d9);
+p {
+    color: orange;
+    font-size: large;
 
+}
+body {
+    background-color: #21222c;
+    font-style: 'Roboto', sans-serif;
+    color: #50fa7b;
+
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #50fa7b;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #50fa7b;
 }
