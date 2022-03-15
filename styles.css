@@ -1,4 +1,4 @@
-p {
+.announce {
     color: orange;
     font-size: large;
 
@@ -15,6 +15,10 @@ button {
     padding: 5px;
 }
 
+button:hover{
+    background-color: #50fa7b;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -24,14 +28,14 @@ button {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 100%;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 10px 10px;
     text-decoration: none;
     display: block;
 }
