@@ -1,0 +1,4 @@
+site_name: My projects
+site_url: https://denisCabrera.github.io
+theme:
+  name: material
